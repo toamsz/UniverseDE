@@ -2,7 +2,6 @@
 cd "$(dirname "$0")" || exit
 # set -e
 source scripts/utils.sh
-QT += x11extras
 CXX="g++"
 CXXFLAGS="-Wall -Wextra -std=c++17 -O2 -fPIC"
 
