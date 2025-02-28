@@ -1,7 +1,6 @@
 #include <core.hpp>
 
 #include <DesktopsUtils/DesktopFile.hpp>
-
 #include <KConfig>
 #include <KConfigGroup>
 
