@@ -11,27 +11,27 @@ see [GNU GPL3](LICENSE)
 # Installation
 now only fedora linux installation:
 first clone repository
-'git clone https://github.com/BakeryOS/UniverseDE'
+'''git clone https://github.com/BakeryOS/UniverseDE'''
 next you need to go to folder where code it is 
-'cd UniverseDE'
+'''cd UniverseDE'''
 after that you compile it 
-'sh build.sh'
+'''sh build.sh'''
 now you need to open this file
-'nano /usr/share/xsessions/Universe.desktop'
+'''nano /usr/share/xsessions/Universe.desktop'''
 and copy this in 
-'[Desktop Entry]
+'''[Desktop Entry]
   Name=Universe
   Comment=idk
   Exec=/usr/local/bin/start-universe
   Type=Application
   X-LightDM-DesktopName=universe
-'
+'''
 and save it,
 now open 
-'nano /usr/local/bin/start-universe'
+'''nano /usr/local/bin/start-universe'''
 and copy this
-'#!/bin/sh
+'''#!/bin/sh
   mutter &
   exec (path to your Universe.elf)
-'
+'''
 
